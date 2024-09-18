@@ -1,7 +1,7 @@
 # Time-Series-Analysis-and-Sentiment-Correlation-with-Stock-Prices
 This project explores Netflix's stock price movements using advanced time series analysis, sentiment analysis from external sources, and correlation studies with other stocks and indices. The goal is to uncover trends, seasonality, and the potential relationship between public sentiment and stock performance.
 
-Key Components:
+# Key Components:
 Time Series Decomposition: Break down stock price data into its trend, seasonal patterns, and residual components.
 Moving Averages and Volatility Analysis: Identify long-term trends and periods of high volatility.
 Sentiment Analysis: Analyze sentiment from social media/news data and compare it to stock prices.
@@ -21,14 +21,17 @@ Autocorrelation and Partial Autocorrelation:
 Use ACF and PACF plots to examine lagged relationships between stock prices. These tools help in identifying patterns and periodicity within the stock price data.
 Sentiment Analysis:
 
-Data Collection: Scrape relevant news articles or social media posts related to the company using APIs (e.g., Tweepy for Twitter, News API for news headlines).
+# Data Collection:
+Scrape relevant news articles or social media posts related to the company using APIs (e.g., Tweepy for Twitter, News API for news headlines).
 Sentiment Scoring: Apply sentiment analysis using pre-trained models (such as VADER or TextBlob) to classify the scraped data into positive, neutral, or negative sentiments.
 Correlation with Stock Prices: Compare sentiment trends with stock price movements to examine if news/public perception impacts price volatility.
 Correlation with Other Stocks:
 
 Collect stock data of related companies (such as Disney, Amazon) or broader indices (NASDAQ, S&P 500) for the same period.
 Analyze correlation matrices to assess how the stock of interest moves in relation to these other companies or market indicators.
-Step-by-Step Workflow
+
+# Step-by-Step Workflow
+
 1. Data Cleaning and Initial Exploration
 Begin by preparing the stock price dataset (e.g., handling missing data and ensuring proper formatting of dates and numerical values).
 Visualize the time series to gain initial insights into the behavior of stock prices over time.
@@ -64,6 +67,7 @@ Correlations with Other Stocks:
 Understanding how the stock correlates with broader indices or related companies can provide insights into whether stock movements are company-specific or part of broader market trends.
 
 
-Contributors : vinitrangdal26@gmail.com
+# Contributor :
+vinitrangdal26@gmail.com
 
 
